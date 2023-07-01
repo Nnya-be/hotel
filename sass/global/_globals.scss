@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+    color: $color-grey-dark-2;
+
+    background-image: linear-gradient(to right bottom , $color-primary-light, $color-primary-dark );
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+}
+
+::selection{
+    background-color: $color-grey-dark-1;
+    color:$color-grey-light-1;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "npm",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss styles/index.css -w",
+    "devserver" : "live-server",
+    "start" : "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss styles/compiled.css "
+  },
+  "author": "solomon",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
