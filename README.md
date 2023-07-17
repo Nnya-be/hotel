@@ -11,14 +11,13 @@ _A project for html and scss styling and responsiveness_
     -Implements people cheching out on some best hotels around a particular country.
 
 ## _Languages Used_
-
-**Currently still building so many languages would be used to help make more complete**
--HTML5
--CSS(SCSS)
--Vanilla Javascript
+    -HTML5
+    -CSS(SCSS)
+    -Vanilla Javascript
+*__Currently still building so many languages would be used to help make more complete__*
+    
 
 ## _Package Managers_
-
     -npm only
 
 ##Make sure to read pull the package.json file for all dependencies
