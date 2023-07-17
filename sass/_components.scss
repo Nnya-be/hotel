@@ -182,6 +182,9 @@
       color: $color-grey-light-2;
       display: inline-block;
       padding: 1.5rem 3rem;
+      @include respond(tabLarge) {
+        padding: 1rem 1.5rem;
+      }
 
       position: relative;
 
@@ -194,6 +197,9 @@
     width: 1.75rem;
     margin-right: 2rem;
     fill: currentColor;
+    @include respond(tabLarge) {
+      margin-right: 1rem;
+    }
   }
 
   &__text {
@@ -322,7 +328,9 @@
 
   display: flex;
   flex-wrap: wrap;
-
+  @include respond(tabLarge){
+    padding:.8rem;
+  }
   &__items {
     text-transform: capitalize;
     flex: 0 0 50%;
@@ -354,8 +362,16 @@
   display: flex;
   justify-items: center;
   align-items: center;
+  @include respond(tabLarge) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   &__count {
     margin-right: auto;
+    @include respond(tabLarge) {
+      margin-right: 0rem;
+    }
   }
 
   &__friends {

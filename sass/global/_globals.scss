@@ -12,6 +12,29 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    
+    @include respond(screenLarge){
+        font-size:75%;
+    }
+    @include respond (tabLarge){
+        font-size:60.25%
+    }
+    @include respond(tabLand){
+        font-size:53.12%;
+    }
+    @include respond(tabPor){
+        font-size:50%;
+    }
+    @include respond(mobileLarge){
+        font-size:37.5%;
+    }
+    @include respond(mobileMedium){
+        font-size: 34.38%;
+    }
+    @include respond(mobileSmall){
+        font-size: 31.25%;
+    }
+
 }
 
 body{
@@ -25,7 +48,6 @@ body{
     background-repeat: no-repeat;
 
     min-height: 100vh;
-
 }
 
 ::selection{

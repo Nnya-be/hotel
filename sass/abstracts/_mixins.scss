@@ -1,0 +1,48 @@
+@mixin respond ($breakpoint){
+    /** Break point for the small mobile screens */
+    @if $breakpoint == mobileSmall{
+        @media(max-width:300px){
+            @content;
+        }
+    }
+    /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+    @if $breakpoint == mobileMedium{
+        @media(max-width:350px){
+            @content;
+        }
+    }
+
+    /** Breakpoint for the large sized mobile screens 350px - 400px*/
+    @if $breakpoint == mobileLarge{
+        @media(max-width:400px){
+            @content;
+        }
+    }
+    /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+    @if $breakpoint == tabPor {
+        @media(max-width:600px){
+            @content;
+        }
+    }
+
+    /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+    @if $breakpoint == tabLand{
+        @media(max-width:900px){
+            @content;
+        }
+    }
+
+    /** Breakpoint for large Tablets 800px - 1100px */
+    @if $breakpoint == tabLarge{
+        @media (max-width:1100px){
+            @content;
+        }
+    } 
+    /** Breakpoint for the Large screens 1200 to end */
+    @if $breakpoint == screenLarge{
+        @media(min-width :1100px){
+            @content;
+        }
+    }
+
+}

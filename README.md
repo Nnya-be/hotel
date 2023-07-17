@@ -1,7 +1,7 @@
-**#However, I just decided to work on adding some JavaScript to it as it will help**
 _A project for html and scss styling and responsiveness_
+#**However, I just decided to work on adding some JavaScript to it as it will help**
 
-# _Function of The Hotel Software_
+## _Function of The Hotel Software_
 
     -Implements people querying about tours.
     -Implements people cheking for car rentals.
@@ -10,14 +10,14 @@ _A project for html and scss styling and responsiveness_
     -Implements people checking out on Home sales.
     -Implements people cheching out on some best hotels around a particular country.
 
-# _Languages Used_
+## _Languages Used_
 
 **Currently still building so many languages would be used to help make more complete**
 -HTML5
 -CSS(SCSS)
 -Vanilla Javascript
 
-# _Package Managers_
+## _Package Managers_
 
     -npm only
 
