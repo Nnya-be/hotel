@@ -24,6 +24,10 @@
 }
 .content{
     display: flex;
+    position: relative;
+    // @include respond(tabLand){
+    //     display: block;
+    // }
 }
 .navigation{
     background-color: $color-grey-dark-1;
@@ -32,6 +36,41 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    @include respond(tabLand){
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 25vw;
+        z-index: 10;
+        color: rgba($color-grey-dark-1, 0.01);
+        blur: 100rem;
+
+        display: grid;
+        grid-template-columns: 25vw 75vw;
+        grid-template-rows: 90vh 10vh;
+
+        visibility: hidden;
+        display: none;
+        // width: 0;
+    }
+
+    // @include respond(tabLand){
+    //     // visibility: hidden;
+    //     // display: none;
+
+    //     display: grid;
+    //     grid-template-columns: 27vw 73vw;
+    //     background-color: transparent;
+
+
+
+    //     height: 100vh;
+    //     width: 100vw;
+
+    //     position: fixed;
+    //     top:0;
+
+    //   }
 }
 
 .view{
