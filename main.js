@@ -65,3 +65,13 @@ const ctaBookNow  = document.querySelector('.cta__book-now');
 const ctaButton = document.querySelector('.btn');
 const ctaButtonVisible = document.querySelector('.btn__visible');
 const ctaButtonInvisible = document.querySelector('.btn__invisible');
+
+
+const data = function(){
+    fetch('https://airportsapi/v1/airports/{icao_code}').then(function(response){
+        console.log(response);
+    });
+}
+
+data();
+

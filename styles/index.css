@@ -71,10 +71,10 @@ html {
   @media (max-width: 600px) {
     html {
       font-size: 50%; } }
-  @media (max-width: 400px) {
+  @media (max-width: 490px) {
     html {
       font-size: 37.5%; } }
-  @media (max-width: 350px) {
+  @media (max-width: 380px) {
     html {
       font-size: 34.38%; } }
   @media (max-width: 300px) {
@@ -461,7 +461,17 @@ body {
   /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
   /** Breakpoint for the Tablet Landscape screen 600px - 800px */
   /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
   /** Breakpoint for the Large screens 1200 to end */ }
+  @media (max-width: 490px) {
+    .recomended {
+      font-size: 2rem; } }
   @media (max-width: 1100px) {
     .recomended {
       flex-direction: column;
@@ -494,17 +504,28 @@ body {
   box-shadow: 0 0.5rem 0.7rem rgba(0, 0, 0, 0.2);
   padding: 3rem;
   margin-bottom: 3.5rem;
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */
   display: flex;
   flex-direction: column;
   justify-items: center;
   position: relative;
   overflow: hidden; }
+  @media (max-width: 600px) {
+    .review {
+      padding: 2rem; } }
   .review__text {
     margin-bottom: 2rem;
     z-index: 2; }
   .review__user {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    font-size: 2rem; }
   .review__photo {
     height: 4.5rem;
     width: 4.5rem;
@@ -516,10 +537,30 @@ body {
     font-size: 1.1rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 0.4rem; }
+    margin-bottom: 0.4rem;
+    /** Break point for the small mobile screens */
+    /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+    /** Breakpoint for the large sized mobile screens 350px - 400px*/
+    /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+    /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+    /** Breakpoint for large Tablets 800px - 1100px */
+    /** Breakpoint for the Large screens 1200 to end */ }
+    @media (max-width: 490px) {
+      .review__user-name {
+        font-size: 1.7rem; } }
   .review__user-date {
     font-size: 1rem;
-    color: #999; }
+    color: #999;
+    /** Break point for the small mobile screens */
+    /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+    /** Breakpoint for the large sized mobile screens 350px - 400px*/
+    /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+    /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+    /** Breakpoint for large Tablets 800px - 1100px */
+    /** Breakpoint for the Large screens 1200 to end */ }
+    @media (max-width: 490px) {
+      .review__user-date {
+        font-size: 2rem; } }
   .review__rating {
     font-size: 2.2rem;
     font-weight: 300;
@@ -537,7 +578,18 @@ body {
 
 .cta {
   padding: 3.5rem 0;
-  text-align: center; }
+  text-align: center;
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */ }
+  @media (max-width: 490px) {
+    .cta {
+      grid-column: 1 / -1;
+      grid-row: 3 / -1; } }
   .cta__book-now {
     text-transform: uppercase;
     font-size: 2rem;
@@ -655,17 +707,161 @@ body {
   padding: 4.5rem;
   font-size: 1.4rem;
   background-color: #faf9f9;
-  border-bottom: 1px solid #f4f2f2; }
+  border-bottom: 1px solid #f4f2f2;
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */ }
+  @media (max-width: 600px) {
+    .detail {
+      padding: 1rem; } }
+  @media (max-width: 490px) {
+    .detail {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: max-content min-content min-content;
+      grid-row-gap: 2rem;
+      padding: 6rem;
+      font-size: 2rem; } }
+  @media (max-width: 380px) {
+    .detail {
+      padding: 2rem; } }
 
 .description {
   background-color: #fff;
   flex: 0 0 60%;
   margin-right: 4.5rem;
   box-shadow: 0 1.4rem 2rem rgba(0, 0, 0, 0.2);
-  padding: 4rem; }
+  padding: 4rem;
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */ }
+  @media (max-width: 600px) {
+    .description {
+      padding: 2rem; } }
+  @media (max-width: 490px) {
+    .description {
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+      margin-right: 0;
+      padding: 4rem;
+      font-size: 2rem; } }
+  @media (max-width: 380px) {
+    .description {
+      padding: 1.8rem;
+      margin-right: 0; } }
 
 .user-reviews {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  /** Break point for the small mobile screens */
+  /** Breakpiont for the medium sized mobile screens 300px - 350px*/
+  /** Breakpoint for the large sized mobile screens 350px - 400px*/
+  /** Breakpoint for the Tablet  Portrait screen 400px - 600px */
+  /** Breakpoint for the Tablet Landscape screen 600px - 800px */
+  /** Breakpoint for large Tablets 800px - 1100px */
+  /** Breakpoint for the Large screens 1200 to end */ }
+  @media (max-width: 490px) {
+    .user-reviews {
+      grid-column: 1 / -1;
+      grid-row: 2 / 3;
+      width: 42rem;
+      justify-self: center;
+      margin-top: 4rem;
+      font-size: 2rem; } }
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, min-content);
+  grid-gap: 2rem;
+  background-color: #333;
+  font-size: 2rem;
+  padding: 4rem;
+  justify-content: center;
+  align-items: center;
+  color: #f4f2f2; }
+  .footer--description {
+    grid-column: 1 / 2; }
+    .footer--description__header {
+      display: block;
+      font-size: 4rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      padding: 2rem 2rem 2rem 0; }
+    .footer--description__text {
+      padding: 1rem 2rem 1rem 0;
+      margin-bottom: 2rem; }
+    .footer--description__button-link, .footer--description__button-link:visited, .footer--description__button-link:focus {
+      text-decoration: none; }
+    .footer--description__button-text {
+      border: none;
+      outline: none;
+      background-color: #BA265D;
+      padding: 1.5rem 3rem;
+      display: block;
+      color: #f0eeee;
+      border-radius: 5rem;
+      font-size: 2rem;
+      text-align: center;
+      transition: all .2s; }
+      .footer--description__button-text:hover {
+        box-shadow: 0 0.5rem 0.7rem rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px); }
+      .footer--description__button-text:active {
+        transform: translateY(-1px);
+        box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.2); }
+
+.contacts-holder {
+  display: flex;
+  text-transform: capitalize;
+  padding: 1rem; }
+
+.contacts--link, .contacts--link:visited, .contacts--link:focus, .contacts--link:active {
+  margin-left: 1rem;
+  text-transform: lowercase;
+  text-decoration: none; }
+
+.socials {
+  justify-self: center;
+  align-self: center;
+  display: block; }
+  .socials--links__icon {
+    width: 3rem;
+    height: 2rem; }

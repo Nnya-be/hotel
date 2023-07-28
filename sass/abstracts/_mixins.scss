@@ -7,14 +7,14 @@
     }
     /** Breakpiont for the medium sized mobile screens 300px - 350px*/
     @if $breakpoint == mobileMedium{
-        @media(max-width:350px){
+        @media(max-width:380px){
             @content;
         }
     }
 
     /** Breakpoint for the large sized mobile screens 350px - 400px*/
     @if $breakpoint == mobileLarge{
-        @media(max-width:400px){
+        @media(max-width:490px){
             @content;
         }
     }

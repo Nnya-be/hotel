@@ -21,6 +21,7 @@
     align-items: center;
 
     font-size: 1.5rem;
+
 }
 .content{
     display: flex;
@@ -86,6 +87,20 @@
     font-size: 1.4rem;
     background-color:$color-grey-light-1;
     border-bottom: 1px solid $color-grey-light-2;
+    @include respond(tabPor){
+        padding: 1rem;
+    }
+    @include respond(mobileLarge){
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: max-content min-content min-content;
+        grid-row-gap: 2rem;
+        padding: 6rem;
+        font-size: 2rem;
+    }
+    @include respond(mobileMedium){
+     padding: 2rem;   
+    }
 }
 
 .description{
@@ -96,6 +111,21 @@
     box-shadow: 0 1.4rem 2rem rgba(0,0,0,.2);
 
     padding:4rem;
+    @include respond(tabPor){
+        padding: 2rem;
+    }
+    @include respond(mobileLarge){
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        margin-right: 0;
+        padding: 4rem;
+        font-size: 2rem;
+
+    }
+    @include respond(mobileMedium){
+       padding: 1.8rem;
+       margin-right: 0; 
+    }  
 
 
 }
@@ -106,4 +136,14 @@
     display: flex;
     flex-direction: column ;
     align-items: center;
+    @include respond(mobileLarge){
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        width: 42rem;
+        justify-self: center;
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+    
+    
 }

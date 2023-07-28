@@ -1,252 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" type="image.jpg" href="img/seeq2.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
-    
-    <title>SEEQ &ndash; Find comfort at comfort </title>
+    <link rel="shortcut icon" type="image.jpg" href="img/seeq2.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <title>SEEQ &ndash; Find comfort at comfort</title>
     <script type="module" defer src="main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <img src="img/seeq2.jpg" alt="page logo" class="logo">
+      <header class="header">
+        <img src="img/seeq2.jpg" alt="page logo" class="logo" />
 
-            <form action="#" class="search">
-                <input type="text" class="search__input" placeholder="search hotels">
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="search hotels"
+          />
 
-                <button class="search__button">
-                    <svg class="search__icon">
-                        <use xlink:href="img/icons.svg#icon-magnifying-glass"></use>
-                    </svg>
-                </button>
-            </form>
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/icons.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
 
-            <nav class="user-nav">
-                <div class="user-nav__icon-box">
-                    <svg class="user-nav__icon">
-                        <use xlink:href="img/icons.svg#icon-bookmark"></use>
-                    </svg>
-                    <span class="user-nav__notification">7</span>
-                </div>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/icons.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
 
-                <div class="user-nav__icon-box">
-                    <svg class="user-nav__icon">
-                        <use xlink:href="img/icons.svg#icon-chat"></use>
-                    </svg>
-                    <span class="user-nav__notification">23</span>
-                </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/icons.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">23</span>
+          </div>
 
-                <div class="user-nav__user">
-                    <img src="img/user1.jpg" alt="user photo" class="user-nav__user-photo">
-                    <span class="user-nav__username">Oburo</span>
-                </div>
-            </nav>
-
-
-        </header>
-        <div class="content">
-            <div class="nav-hidden">
-                <div class="nav-hidden__response nav-hidden__response--selected"></div>
-            </div>
-            <nav class="navigation">
-                <ul class="side-nav">
-                        <li class="side-nav__item side-nav__item-active">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/icons.svg#icon-home"></use>
-                                </svg>
-                                <span class="side-nav__text">
-                                    hotel
-                                </span>
-                            </a>
-                        </li>
-                        <li class="side-nav__item">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/icons.svg#icon-aircraft-take-off"></use>
-                                </svg>
-                                <span class="side-nav__text">
-                                    flight
-                                </span>
-                            </a>
-                        </li>
-                        <li class="side-nav__item">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/icons.svg#icon-key"></use>
-                                </svg>
-                                <span class="side-nav__text">
-                                    car rental
-                                </span>
-                            </a>
-                        </li>
-                        <li class="side-nav__item">
-                            <a href="#" class="side-nav__link">
-                                <svg class="side-nav__icon">
-                                    <use xlink:href="img/icons.svg#icon-map"></use>
-                                </svg>
-                                <span class="side-nav__text">
-                                    tours
-                                </span>
-                            </a>
-                        </li>
-                </ul>
-    
-                <div class="copy">
-                        &copy; all right reserved to the owner of this design;
-                </div>
-                <div class="blur"></div>
-            </nav>
-            <div class="view">
-                <div class="gallery" id="#gallery">
-                    <figure class="gallery__figure">
-                        <img src="img/img2-large.jpg" alt="room picture" class="gallery__image">
-                    </figure>
-                    <figure class="gallery__figure">
-                        <img src="img/img1-large.jpg" alt="room picture" class="gallery__image">
-                    </figure>
-                    <figure class="gallery__figure">
-                        <img src="img/img2-large.jpg" alt="room picture" class="gallery__image">
-                    </figure>
-                </div>
-
-                <div class="overview">
-                    <h1 class="overview__heading">
-                        hotel overview
-                    </h1>
-
-                    <div class="overview__stars">
-                        <svg class="overview__icon">
-                            <use xlink:href="img/icons.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon">
-                            <use xlink:href="img/icons.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon">
-                            <use xlink:href="img/icons.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon">
-                            <use xlink:href="img/icons.svg#icon-star"></use>
-                        </svg>
-                        <svg class="overview__icon">
-                            <use xlink:href="img/icons.svg#icon-star"></use>
-                        </svg>
-                    </div>
-
-                    <div class="overview__location">
-                        <svg class="overview__icon location">
-                            <use xlink:href="img/icons.svg#icon-location-pin"></use>
-                        </svg>
-
-                        <button class="btn-inline">
-                            Kumasi,Ghana
-                        </button>
-                    </div>
-
-                    <div class="overview__rating">
-                        <div class="overview__rating-average">7.2</div>
-                        <div class="overview__rating-count">875 votes</div>
-                    </div>
-                </div>
-
-                <div class="detail">
-                    <div class="description">
-                        <p class="paragraph">
-                            with the ongoing pandemic and war , you might want a place to feel free and have a very great adventure with
-                            either your partner or your family or perhaphs a friend. look no more because we are here for you .Right at your 
-                            door step. trust us with this and your are going to love it the very moment you drop here and hop in the environment
-                        </p>
-                        <p class="paragraph">
-                            for all your baecations and vacations and all the girls out and guys outing time you can really get in touch 
-                            with nature too in a very different way here too . 
-                        </p>
-
-                        <ul class="list">
-                            <li class="list__items">scerene environment</li>
-                            <li class="list__items">securicty and privacy</li>
-                            <li class="list__items">free airport shuttle</li>
-                            <li class="list__items">comfortable beds</li>
-                            <li class="list__items">free wifi</li>
-                            <li class="list__items">breakfast and launch</li>
-                            <li class="list__items">nature touch</li>
-                            <li class="list__items">good customer sevice</li>
-                        </ul>
-
-                        <div class="recomended">
-                            <p class="recomended__count">
-                                Mimi and 3 other friends recomended this hotel.
-                            </p>
-    
-                            <div class="recomended__friends">
-                                <img src="img/user1.jpg" alt="user photo" class="recomended__photo">
-                                <img src="img/user2.jpg" alt="user photo" class="recomended__photo">
-                                <img src="img/user3.jpg" alt="user photo" class="recomended__photo">
-                                <img src="img/user4.jpg" alt="user photo" class="recomended__photo">
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    
-                    <div class="user-reviews">
-                        <figure class="review">
-                            <blockquote class="review__text">
-                                With the one of the best views from the rooms of the hotel and how the reception responds and welcomes ever
-                                yone in a warm manner regardless of your race, 
-                            </blockquote>
-
-                            <figcaption class="review__user">
-                                <img src="img/user3.jpg" alt="user 1" class="review__photo">
-                                <div class="review__user-box">
-                                    <p class="review__user-name">Afia</p>
-                                    <p class="review__user-date">Jan 4th, 2021</p>
-                                </div>
-                                <div class="review__rating">9.1</div>
-                            </figcaption>
-                        </figure>
-
-                        <figure class="review">
-                            <blockquote class="review__text">
-                                What is better than being in a scerene environment where your protection is also a priority? well nonethelss,
-                                
-                            </blockquote>
-
-                            <figcaption class="review__user">
-                                <img src="img/user2.jpg" alt="user 2" class="review__photo">
-                                <div class="review__user-box">
-                                    <p class="review__user-name">Thess</p>
-                                    <p class="review__user-date">Nov 19th, 2020</p>
-                                </div>
-                                <div class="review__rating">6.4</div>
-                            </figcaption>
-                        </figure>
-
-                        <button class="btn-inline">Show all <span>&rarr;</span></button>
-                    </div>
-                </div>
-                <div class="cta">
-                    <h2 class="cta__book-now">
-                        Good news! we have 4 free rooms for your selected dates!
-                    </h2>
-                    <button class="btn">
-                        <span class="btn__visible">
-                            book now
-                        </span>
-                        <span class="btn__invisible">
-                            only 4 rooms left
-                        </span>
-                    </button>
-
-                </div>
-            </div>
-            
+          <div class="user-nav__user">
+            <img
+              src="img/user1.jpg"
+              alt="user photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__username">Oburo</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="nav-hidden">
+          <div
+            class="nav-hidden__response nav-hidden__response--selected"
+          ></div>
         </div>
+        <nav class="navigation">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item-active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/icons.svg#icon-home"></use>
+                </svg>
+                <span class="side-nav__text"> hotel </span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/icons.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span class="side-nav__text"> flight </span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/icons.svg#icon-key"></use>
+                </svg>
+                <span class="side-nav__text"> car rental </span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/icons.svg#icon-map"></use>
+                </svg>
+                <span class="side-nav__text"> tours </span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="copy">
+            &copy; all right reserved to the owner of this design;
+          </div>
+          <div class="blur"></div>
+        </nav>
+        <div class="view">
+          <div class="gallery" id="#gallery">
+            <figure class="gallery__figure">
+              <img
+                src="img/img2-large.jpg"
+                alt="room picture"
+                class="gallery__image"
+              />
+            </figure>
+            <figure class="gallery__figure">
+              <img
+                src="img/img1-large.jpg"
+                alt="room picture"
+                class="gallery__image"
+              />
+            </figure>
+            <figure class="gallery__figure">
+              <img
+                src="img/img2-large.jpg"
+                alt="room picture"
+                class="gallery__image"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">hotel overview</h1>
+
+            <div class="overview__stars">
+              <svg class="overview__icon">
+                <use xlink:href="img/icons.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/icons.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/icons.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/icons.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon">
+                <use xlink:href="img/icons.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon location">
+                <use xlink:href="img/icons.svg#icon-location-pin"></use>
+              </svg>
+
+              <button class="btn-inline">Kumasi,Ghana</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">7.2</div>
+              <div class="overview__rating-count">875 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                with the ongoing pandemic and war , you might want a place to
+                feel free and have a very great adventure with either your
+                partner or your family or perhaphs a friend. look no more
+                because we are here for you .Right at your door step. trust us
+                with this and your are going to love it the very moment you drop
+                here and hop in the environment
+              </p>
+              <p class="paragraph">
+                for all your baecations and vacations and all the girls out and
+                guys outing time you can really get in touch with nature too in
+                a very different way here too .
+              </p>
+
+              <ul class="list">
+                <li class="list__items">scerene environment</li>
+                <li class="list__items">securicty and privacy</li>
+                <li class="list__items">free airport shuttle</li>
+                <li class="list__items">comfortable beds</li>
+                <li class="list__items">free wifi</li>
+                <li class="list__items">breakfast and launch</li>
+                <li class="list__items">nature touch</li>
+                <li class="list__items">good customer sevice</li>
+              </ul>
+
+              <div class="recomended">
+                <p class="recomended__count">
+                  Mimi and 3 other friends recomended this hotel.
+                </p>
+
+                <div class="recomended__friends">
+                  <img
+                    src="img/user1.jpg"
+                    alt="user photo"
+                    class="recomended__photo"
+                  />
+                  <img
+                    src="img/user2.jpg"
+                    alt="user photo"
+                    class="recomended__photo"
+                  />
+                  <img
+                    src="img/user3.jpg"
+                    alt="user photo"
+                    class="recomended__photo"
+                  />
+                  <img
+                    src="img/user4.jpg"
+                    alt="user photo"
+                    class="recomended__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  With the one of the best views from the rooms of the hotel and
+                  how the reception responds and welcomes ever yone in a warm
+                  manner regardless of your race,
+                </blockquote>
+
+                <figcaption class="review__user">
+                  <img src="img/user3.jpg" alt="user 1" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Afia</p>
+                    <p class="review__user-date">Jan 4th, 2021</p>
+                  </div>
+                  <div class="review__rating">9.1</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  What is better than being in a scerene environment where your
+                  protection is also a priority? well nonethelss,
+                </blockquote>
+
+                <figcaption class="review__user">
+                  <img src="img/user2.jpg" alt="user 2" class="review__photo" />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Thess</p>
+                    <p class="review__user-date">Nov 19th, 2020</p>
+                  </div>
+                  <div class="review__rating">6.4</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Good news! we have 4 free rooms for your selected dates!
+            </h2>
+            <button class="btn">
+              <span class="btn__visible"> book now </span>
+              <span class="btn__invisible"> only 4 rooms left </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer">
+        <div class="footer--description">
+          <h4 class="footer--description__header">
+            let's Talk
+          </h4>
+          <p class="footer--description__text">
+            This project is a project for great use cases in real world and also for learning
+            a lot as a developer. You can share your reviews and how I can improve on things on the page
+            or on my self. Thank you!
+          </p>
+          <a href="#" class="footer--description__button-link">
+            <button class="footer--description__button-text">
+                Reviews
+            </button>
+          </a>
+        </div>
+        <div class="footer--links">
+          <div class="contacts">
+            <div class="contacts-holder">
+              <span class="contacts--name">email  :</span>
+              <a href="#" class="contacts--link">solomonchamamme@gmail.com</a>
+            </div>
+            <div class="contacts-holder">
+              <span class="contacts--name">Contact  :</span>
+              <a href="#" class="contacts--link">(+233)554341306</a>
+            </div>
+          </div>
+          <div class="socials">
+            <a href="#" class="socials--links">
+              <svg class="socials--links__icon">
+                <use xlink:href="img/icons.svg#icon-chat"></use>
+                
+              </svg>
+            </a>
+            <a href="#" class="socials--links">
+              <svg class="socials--links__icon">
+                <use xlink:href="img/icons.svg#icon-chat"></use>
+                
+              </svg>
+            </a>
+            <a href="#" class="socials--links">
+              <svg class="socials--links__icon">
+                <use xlink:href="img/icons.svg#icon-chat"></use>
+                
+              </svg>
+            </a>
+            <a href="#" class="socials--links">
+              <svg class="socials--links__icon">
+                <use xlink:href="img/icons.svg#icon-chat"></use>
+                
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div> -->
     </div>
-</body>
+  </body>
 </html>

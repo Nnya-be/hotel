@@ -1,0 +1,103 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , min-content);
+    grid-gap: 2rem;
+    background-color: $color-grey-dark-1;
+    font-size: 2rem;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: $color-grey-light-2;
+
+
+    &--description{
+        grid-column: 1 / 2;
+        &__header{
+            display: block;
+            font-size: 4rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            padding: 2rem 2rem 2rem 0;
+
+        }
+
+        &__text{
+            padding: 1rem 2rem 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        &__button-link,
+        &__button-link:visited,
+        &__button-link:focus{
+            text-decoration: none;
+        }
+
+        &__button-text{
+            border: none;
+            outline: none;
+            background-color: $color-primary-dark;
+            padding: 1.5rem 3rem; 
+            display: block;
+            color: $color-grey-light-3;
+            border-radius: 5rem;
+            font-size: 2rem;
+            text-align: center;
+            transition: all .2s;
+
+            &:hover{
+                box-shadow: 0 0.5rem 0.7rem rgba(black, 0.2);
+                transform: translateY(-2px);
+            }
+            &:active{
+
+                transform: translateY(-1px);
+                box-shadow: 0 0.1rem 0.3rem rgba(black, 0.2);
+            }
+        }
+
+
+        
+
+    }
+
+    &--links{
+
+    }
+}
+
+.contacts{
+    &-holder{
+        display: flex;
+        text-transform: capitalize;
+        padding: 1rem;
+        
+    }
+
+    &--name{
+       
+    }
+
+    &--link,
+    &--link:visited,
+    &--link:focus,
+    &--link:active{
+        margin-left: 1rem;
+        text-transform: lowercase;
+        text-decoration: none;
+    }
+}
+
+.socials{
+    justify-self: center;
+    align-self: center;
+    display: block;
+
+    &--links{
+
+        &__icon{
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+}

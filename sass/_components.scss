@@ -208,7 +208,7 @@
       visibility: visible;
       display: block;
     }
-    
+
     background-color:rgba($color-grey-dark-2, 0.5);
     grid-column: 2 / span 1;
     grid-row: 1 / -1;
@@ -460,10 +460,13 @@
 
 .recomended {
   font-size: 1.3rem;
-
   display: flex;
   justify-items: center;
   align-items: center;
+  @include respond (mobileLarge){
+    font-size: 2rem;
+  }
+
   @include respond(tabLarge) {
     flex-direction: column;
     align-items: center;
@@ -498,6 +501,9 @@
   box-shadow: 0 0.5rem 0.7rem rgba(black, 0.2);
   padding: 3rem;
   margin-bottom: 3.5rem;
+  @include respond(tabPor){
+    padding: 2rem;
+}
 
   display: flex;
   flex-direction: column;
@@ -515,6 +521,7 @@
   &__user {
     display: flex;
     align-items: center;
+    font-size: 2rem;
   }
 
   &__photo {
@@ -527,6 +534,7 @@
 
   &__user-box {
     margin-right: auto;
+ 
   }
 
   &__user-name {
@@ -534,11 +542,19 @@
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.4rem;
+    @include respond (mobileLarge){
+      font-size: 1.7rem;
+    }
+
   }
 
   &__user-date {
     font-size: 1rem;
     color: $color-grey-dark-3;
+    @include respond (mobileLarge){
+      font-size: 2rem;
+    }
+
   }
 
   &__rating {
@@ -564,6 +580,11 @@
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+  @include respond(mobileLarge){
+    grid-column: 1 / -1;
+    grid-row: 3 / -1;
+
+  }
 
   &__book-now {
     text-transform: uppercase;
